@@ -1,0 +1,125 @@
+/* Global styles */
+body {
+	background-image: linear-gradient(to left bottom, #01fe7f, #00e6a2, #00cbb5, #00afb6, #0092a6, #0080a1, #006e99, #005b8d, #004b8e, #00398c, #002586, #02037a);;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styles */
+header {
+  
+  border-bottom: 0.25 solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+/* Main styles */
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+
+
+/* Footer styles */
+h1 {
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	width: 50%;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input[type="text"], textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	resize: none;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+.top
+{
+  top:0px;
+  left:0px;
+  position: absolute;
+  height:70px;
+  width: 100%;
+  padding: 0%;
+  background-color: black;
+  display: flex;
+}
+.navbar
+{
+  width: 100%;
+  height: auto;
+}
+.navbar ul
+{
+  overflow: auto;
+}
+
+.navbar li{
+  float: left;
+  list-style: none;
+  padding:10px;
+
+}
+.navbar li a
+{
+  padding: 6px;
+  border:2px solid black;
+  border-radius: 25%;
+  margin-left: 13px;
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: monospace;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.navbar li a:hover
+{
+  background-color: antiquewhite;
+  color: black;
+  transition-duration: 0.5s;
+}
+.logo
+{
+  left:700px;
+}

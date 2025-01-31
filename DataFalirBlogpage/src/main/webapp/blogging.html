@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+	<!--
+		The following front end will ask the user to input the details for the blog.
+		
+		-->
+	
+
+<head>
+	<title>Post Page</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="All_blogs.jsp">Community Blogs</a></li>
+                <li><a href="blogging.html">Blogging</a></li>
+                <li><a href="user_profile.jsp">Profile</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="./images/projectgurukul.png" width="70px">
+        </div>
+        </div>
+
+	<h1>Post Page</h1>
+	<form action="blogging.jsp">
+		
+		<label for="title">Title:</label>
+			
+		<input type="text" id="title" name="title" required><br><br>
+		
+		<label for="blog">Blog:</label>
+		<textarea id="blog" name="blog" rows="10" cols="50" required></textarea><br><br>
+		
+		<label for="link">Video Link:</label>
+		<input type="text" id="link" name="vidlink"><br><br>
+		<!--
+		The video link is the embed option that comes in youtube when you press share in order to embed a video
+		in your blog.
+		-->
+		
+		
+        <label for="link">Image Link if any:</label>
+		<input type="text" id="link" name="imglink"><br><br>
+		
+		<!--
+The image link is actually the image address that is to be copied from internet.
+-->
+		
+		<label for="caption">Caption:</label>
+		<textarea id="caption" name="caption" rows="5" cols="50"></textarea><br><br>
+		
+		<input type="submit" value="Post">
+	</form>
+</body>
+</html>
