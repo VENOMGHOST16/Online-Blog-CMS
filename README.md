@@ -29,7 +29,7 @@ This is an online Blog Content Management System (CMS) built using JSP, MySQL, a
 - Install MySQL and MySQL Workbench
 - Clone the repository from GitHub:
   ```sh
-  git clone https://github.com/yourusername/your-repository.git
+  git clone https://github.com/VENOMGHOST16/Online-Blog-CMS
   ```
 
 ### Database Setup
